@@ -1,37 +1,100 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/CedricDC17/First_Website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <table cellspacing="25">
+        <tr>
+            <td>
+                <a href="Cat.jpg"><img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=49ed3252c0b2ffb49cf8b508892e452d" alt="" style="width: 100px; "></a>
+            </td>
+            <td>
+                <h1>Cédric DC</h1>
+                <p>
+                    <strong>
+        Etudiant <em>en web development</em>
+        </strong>
+                </p>
+                <p>
+                    <a href="pussies.html">cats name</a>
+                </p>
+            </td>
+        </tr>
+    </table>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <hr>
 
-```markdown
-Syntax highlighted code block
+    <h3>Here are some info about me</h3>
+    <ol type="i">
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="girls.html">Grills</a></li>
+    </ol>
 
-# Header 1
-## Header 2
-### Header 3
+    <hr>
 
-- Bulleted
-- List
+    <table>
+        <thead>
+            <th>Date</th>
+            <th>Age</th>
+        </thead>
+        <tbody> </tbody>
+        <tfoot> </tfoot>
+        <tr>
+            <td>2010-2020 </td>
+            <td>j'avais 10 puis 20 ans </td>
+        </tr>
+        <tr>
+            <td>2005</td>
+            <td>j'avais 5</td>
+        </tr>
+    </table>
 
-1. Numbered
-2. List
+    <hr>
 
-**Bold** and _Italic_ and `Code` text
+    <h3><strong>Skills</strong></h3>
+    <table border="1">
+        <tr>
+            <td>
+                <table cellspacing="10">
+                    <tr>
+                        <td>HTML</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Rien glander</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table cellspacing="10">
+                    <tr>
+                        <td>JavaScript </td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>ReactJs</td>
+                        <td>⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
-[Link](url) and ![Image](src)
-```
+    <a href="contact.html">Contact me</a>
+</body>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CedricDC17/First_Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
